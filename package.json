@@ -54,7 +54,6 @@
     "mocha": "^5.2.0",
     "sinon": "^6.3.3",
     "sinon-chai": "^3.2.0",
-    "snyk": "^1.425.4",
     "standard": "^12.0.1",
     "terser-webpack-plugin": "^5.2.5",
     "ts-loader": "^8.3.0",
@@ -75,9 +74,7 @@
     "build:dev": "webpack",
     "build": "webpack --env production",
     "stats": "node ./stats.js",
-    "lint": "standard",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "lint": "standard"
   },
   "standard": {
     "ignore": [
